@@ -47,10 +47,14 @@ function getPlantillas(){
             xhr.addEventListener('load', () => {
                 if(xhr.status == 200){
                 main.innerHTML = xhr.response
-                if(cb) cb()
+                
         }
     })
 
         })
     })
 }
+
+
+
+
